@@ -1320,24 +1320,29 @@ body {
 
 /* Download CV Button */
 .btn-outline {
-    background: #ffffff;
-    color: #4338ca;
-    border: 2px solid #7c72ff;
+    display: inline-block;
+    background: #6c63ff;
+    color: #1a0dc7 !important;
+    border: 2px solid #6c63ff;
     border-radius: 30px;
     padding: 13px 28px;
     font-size: 15px;
     font-weight: 700;
     text-decoration: none;
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .btn-outline:hover {
-    background: #6c63ff;
-    color: #ffffff;
-    border-color: #6c63ff;
+    background: #1405b6;
+    color: #4b04e4 !important;
+    border-color: #5145e5;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(108, 99, 255, 0.2);
+    box-shadow: 0 8px 20px rgba(108, 99, 255, 0.3);
 }
+
 /* =========================
    SOCIAL LINKS
 ========================= */
