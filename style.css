@@ -2598,14 +2598,14 @@ section {
         transition-duration: .01ms !important;
     }
 }
-```css
+
 /* =========================
    ACHIEVEMENTS & CERTIFICATES
 ========================= */
 
 .certificates-section {
     padding: 100px 8%;
-    background: #101722;
+    background: #f1f2f3;
     color: #f8fafc;
 }
 
@@ -2742,4 +2742,28 @@ section {
         padding: 22px;
     }
 }
-```
+
+/* =========================
+   CERTIFICATES SECTION
+========================= */
+
+.certificates-section {
+    background: #ffffff !important;
+}
+
+/* Certificates & Achievements heading */
+.certificates-section .section-heading h2 {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* Description paragraph */
+.certificates-section .section-heading p {
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+
+/* Keep the small label visible */
+.certificates-section .section-label {
+    color: #0f766e !important;
+}
